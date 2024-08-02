@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/ntg_fy_v3_allapps_pop_layout_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout android:id="@+id/ntg_fy_v3_popwindow_bg" android:background="@drawable/ntg_fy_v3_allapp_bule1_bg" android:layout_width="1060dp" android:layout_height="360dp" android:layout_centerVertical="true" android:layout_marginStart="170dp">
+        <android.support.v4.view.ViewPager android:id="@+id/viewpager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginHorizontal="15dp"/>
+        <RelativeLayout android:id="@+id/ll_edit" android:tag="binding_1" android:layout_width="50dp" android:layout_height="50dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/point">
+            <ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/ntg6_fy_v3_allapp_edit" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>

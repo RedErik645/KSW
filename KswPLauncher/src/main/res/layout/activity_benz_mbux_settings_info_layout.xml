@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_benz_mbux_settings_info_layout_0" android:background="@drawable/mbux_settings_main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="67dp" android:src="@drawable/mbux_settings_left_bg" android:layout_marginStart="12dp"/>
+    <ImageView android:background="@drawable/mbux_settings_keypad_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_marginStart="440dp"/>
+    <RelativeLayout android:layout_width="397dp" android:layout_height="match_parent" android:layout_marginLeft="12dp">
+        <TextView android:text="@string/item7" style="@style/mbux_settings_title"/>
+        <ScrollView android:scrollbarSize="5dp" android:scrollbarThumbVertical="@drawable/bmw_id8_list_slider" android:scrollbarStyle="outsideOverlay" android:id="@+id/mbux_settings_info_lay" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="68dp" android:layout_marginBottom="35dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@+id/mbux_info_mcu_ver" android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="71dp">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/ksw_id8_settings_info_mcu_version" style="@style/mbux_settings_about_title"/>
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:tag="binding_1" style="@style/mbux_settings_about_content"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:layout_width="match_parent" android:layout_height="71dp">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/ksw_id8_settings_info_app_version" style="@style/mbux_settings_about_title"/>
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:tag="binding_2" style="@style/mbux_settings_about_content"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_info_system_version" android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:layout_width="match_parent" android:layout_height="71dp">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/ksw_id8_settings_info_system_version" style="@style/mbux_settings_about_title"/>
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:tag="binding_3" style="@style/mbux_settings_about_content"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_info_cpu" android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:layout_width="match_parent" android:layout_height="71dp">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/ksw_id8_settings_info_cpu" style="@style/mbux_settings_about_title"/>
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:tag="binding_4" style="@style/mbux_settings_about_content"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:layout_width="match_parent" android:layout_height="71dp">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/ksw_id8_settings_info_storage" style="@style/mbux_settings_about_title"/>
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:tag="binding_5" style="@style/mbux_settings_about_content"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:layout_width="match_parent" android:layout_height="71dp">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/ksw_id8_settings_info_ram" style="@style/mbux_settings_about_title"/>
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:tag="binding_6" style="@style/mbux_settings_about_content"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_info_mcu_upgrade" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusDown="@+id/mbux_info_system_recovery" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/ksw_id8_settings_info_mcu_upgrade" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_info_system_recovery" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusUp="@+id/mbux_info_mcu_upgrade" android:nextFocusDown="@+id/mbux_info_system_update" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/text_12" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_info_system_update" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusUp="@+id/mbux_info_system_recovery" android:nextFocusDown="@+id/mbux_info_system_update" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/text_16" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="107dp" android:src="@drawable/mbux_settings_icon_info" android:layout_marginStart="667dp"/>
+</RelativeLayout>

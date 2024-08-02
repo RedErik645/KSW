@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/bmw_id9_settings_system_music_layout_0" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/id9_settings_right_list_bg"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="510dp" android:layout_height="match_parent" android:layout_marginTop="33dp">
+        <TextView android:text="@string/music_app_sel" style="@style/bmw_id9_settings_second_title"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/bmw_id9_settings_music_recycle" android:focusedByDefault="true" style="@style/bmw_id9_settings_recyclerview"/>
+    </LinearLayout>
+</RelativeLayout>

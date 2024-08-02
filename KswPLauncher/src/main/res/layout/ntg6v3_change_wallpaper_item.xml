@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:tag="layout/ntg6v3_change_wallpaper_item_0" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="22dp" android:paddingEnd="6dp">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:id="@+id/wallpaperNormalIv" android:tag="binding_1" android:nextFocusLeft="@+id/wallpaper_change_tv" android:nextFocusRight="@+id/wallpaperMapIv" android:nextFocusUp="@+id/wallpaper_change_tv" android:nextFocusDown="@+id/wallpaperMapIv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6v3_theme_wallpaper_normal_selector"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="58dp" android:layout_marginTop="8dp">
+            <TextView android:textSize="17sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="200dp" android:text="@string/default_wallpaper" android:lines="2"/>
+            <ImageView android:layout_gravity="center_vertical" android:tag="binding_2" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ntg6v3_them_or_wallpaper_select" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:id="@+id/wallpaperMapIv" android:tag="binding_3" android:nextFocusLeft="@+id/wallpaperNormalIv" android:nextFocusRight="@+id/wallpaperCustomIv" android:nextFocusUp="@+id/wallpaperNormalIv" android:nextFocusDown="@+id/wallpaperCustomIv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6v3_theme_wallpaper_map_selector"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="58dp" android:layout_marginTop="8dp">
+            <TextView android:textSize="17sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="200dp" android:text="@string/ntg6v3_wallpaper_name_2" android:lines="2"/>
+            <ImageView android:layout_gravity="center_vertical" android:tag="binding_4" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ntg6v3_them_or_wallpaper_select" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/wallpaperCustomIv" android:tag="binding_5" android:nextFocusLeft="@+id/wallpaperMapIv" android:nextFocusRight="@+id/wallpaperCustomIv" android:nextFocusUp="@+id/wallpaperMapIv" android:nextFocusDown="@+id/wallpaperCustomIv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6v3_theme_wallpaper_custom_selector"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6v3_theme_wallpaper_custom_add" android:layout_centerInParent="true"/>
+            <TextView android:textSize="16sp" android:textColor="#ccffffff" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/wallpaper_path_wallpaper" android:layout_alignBottom="@+id/wallpaperCustomIv" android:layout_marginStart="6dp" android:layout_marginEnd="6dp" android:layout_alignStart="@+id/wallpaperCustomIv" android:layout_alignEnd="@+id/wallpaperCustomIv"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="58dp" android:layout_marginTop="8dp">
+            <TextView android:textSize="17sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="200dp" android:text="@string/ntg6v3_wallpaper_name_custom" android:lines="2"/>
+            <ImageView android:layout_gravity="center_vertical" android:tag="binding_6" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ntg6v3_them_or_wallpaper_select" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

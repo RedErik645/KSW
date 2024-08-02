@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_benz_mbux_settings_navi_layout_0" android:background="@drawable/mbux_settings_main_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="67dp" android:src="@drawable/mbux_settings_left_bg" android:layout_marginStart="12dp"/>
+    <ImageView android:background="@drawable/mbux_settings_keypad_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_marginStart="440dp"/>
+    <RelativeLayout android:layout_width="397dp" android:layout_height="match_parent" android:layout_marginLeft="12dp">
+        <TextView android:text="@string/item2" style="@style/mbux_settings_title"/>
+        <android.support.v7.widget.RecyclerView android:scrollbarSize="5dp" android:scrollbarThumbVertical="@drawable/bmw_id8_list_slider" android:scrollbarStyle="outsideOverlay" android:id="@+id/navi_recycle" android:scrollbars="vertical" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="68dp" android:layout_marginBottom="35dp"/>
+    </RelativeLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="107dp" android:src="@drawable/mbux_settings_icon_navi" android:layout_marginStart="667dp"/>
+</RelativeLayout>

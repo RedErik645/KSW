@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_bmw_id9_settings_main_0" android:background="@drawable/id9_main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="@string/ksw_id8_setting" android:layout_marginStart="147dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/bmw_id9_settings_title"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/bmw_id9_settings_main_recycle" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</android.support.constraint.ConstraintLayout>

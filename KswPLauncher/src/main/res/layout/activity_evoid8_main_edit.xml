@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/id8_ug_main" android:tag="layout/activity_evoid8_main_edit_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/id8_ug_top" android:background="@color/colorPrimaryDark" android:layout_width="match_parent" android:layout_height="@dimen/evoid8_main_top_height" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <TextView android:textSize="22sp" android:textColor="#ffffff" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ksw_id8_editor_title" android:layout_marginStart="100dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <HorizontalScrollView android:id="@+id/scrollView" android:scrollbars="none" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/id8_ug_top">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_container" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="16dp" android:paddingEnd="28dp" android:layout_marginEnd="28dp">
+            <FrameLayout android:id="@+id/fl_content1" android:layout_width="265dp" android:layout_height="match_parent" android:layout_marginStart="12dp"/>
+            <FrameLayout android:id="@+id/fl_content2" android:layout_width="265dp" android:layout_height="match_parent" android:layout_marginStart="28dp"/>
+            <FrameLayout android:id="@+id/fl_content3" android:layout_width="265dp" android:layout_height="match_parent" android:layout_marginStart="28dp"/>
+            <FrameLayout android:id="@+id/fl_content4" android:layout_width="265dp" android:layout_height="match_parent" android:layout_marginStart="28dp"/>
+            <FrameLayout android:id="@+id/fl_content5" android:layout_width="265dp" android:layout_height="match_parent" android:layout_marginStart="28dp"/>
+            <FrameLayout android:id="@+id/fl_content6" android:layout_width="265dp" android:layout_height="match_parent" android:layout_marginStart="28dp"/>
+            <FrameLayout android:id="@+id/fl_content7" android:layout_width="265dp" android:layout_height="match_parent" android:layout_marginStart="28dp"/>
+            <FrameLayout android:id="@+id/fl_content8" android:layout_width="265dp" android:layout_height="match_parent" android:layout_marginStart="28dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</android.support.constraint.ConstraintLayout>

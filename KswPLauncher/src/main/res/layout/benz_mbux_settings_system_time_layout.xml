@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/benz_mbux_settings_system_time_layout_0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="53dp">
+    <ScrollView android:scrollbarSize="5dp" android:scrollbarThumbVertical="@drawable/bmw_id8_list_slider" android:scrollbarStyle="outsideOverlay" android:scrollbars="vertical" android:descendantFocusability="afterDescendants" android:layout_width="770dp" android:layout_height="wrap_content" android:layout_marginTop="73dp" android:layout_marginBottom="35dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/mbux_settings_system_time_lay" android:layout_width="730dp" android:layout_height="match_parent" android:paddingStart="4dp" android:paddingEnd="4dp" android:layout_marginStart="30dp">
+            <TextView android:id="@+id/time_system_title" android:text="@string/text_2" style="@style/mbux_settings_second_title"/>
+            <RadioGroup android:id="@+id/mbux_settings_time_sync" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkedButton="@+id/mbux_settings_time_car">
+                <RadioButton android:textSize="20sp" android:textColor="@android:color/white" android:id="@+id/mbux_settings_time_car" android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="73dp" android:button="@null" android:text="@string/text_4" android:drawablePadding="18dp" android:drawableStart="@drawable/benz_mbux_settings_item_sel" android:paddingStart="23dp"/>
+                <View style="@style/mbux_settings_item_divider"/>
+                <RadioButton android:textSize="20sp" android:textColor="@android:color/white" android:id="@+id/mbux_settings_time_android" android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="73dp" android:button="@null" android:text="@string/text_5" android:drawablePadding="18dp" android:drawableStart="@drawable/benz_mbux_settings_item_sel" android:paddingStart="23dp"/>
+                <View style="@style/mbux_settings_item_divider"/>
+            </RadioGroup>
+            <TextView android:text="@string/text_3" style="@style/mbux_settings_second_title"/>
+            <RadioGroup android:id="@+id/mbux_settings_time_format" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkedButton="@+id/mbux_time_format_12">
+                <RadioButton android:textSize="20sp" android:textColor="@android:color/white" android:id="@+id/mbux_time_format_12" android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="73dp" android:button="@null" android:text="@string/text_6" android:drawablePadding="18dp" android:drawableStart="@drawable/benz_mbux_settings_item_sel" android:paddingStart="23dp"/>
+                <View style="@style/mbux_settings_item_divider"/>
+                <RadioButton android:textSize="20sp" android:textColor="@android:color/white" android:id="@+id/mbux_time_format_24" android:background="@drawable/benz_mbux_settings_item_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="73dp" android:button="@null" android:text="@string/text_7" android:drawablePadding="18dp" android:drawableStart="@drawable/benz_mbux_settings_item_sel" android:paddingStart="23dp"/>
+                <View style="@style/mbux_settings_item_divider"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

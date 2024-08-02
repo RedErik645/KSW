@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/id8_ug_main" android:tag="layout/activity_evoid8_apps_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/leftLinearLayout" android:tag="binding_1" android:layout_width="100dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <include android:id="@+id/ll_left_container" layout="@layout/evoid8_app_left_bar"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/rightLinearLayout" android:tag="binding_2" android:layout_width="100dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+        <include android:id="@+id/ll_right_container" layout="@layout/evoid8_app_right_bar"/>
+    </LinearLayout>
+    <com.wits.ksw.launcher.view.CustomGridView android:scrollbarStyle="insideInset" android:id="@+id/appGridView" android:tag="binding_3" android:background="@null" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:verticalSpacing="15dp" android:numColumns="7" android:overScrollMode="never" android:layout_marginEnd="32dp" android:defaultFocusHighlightEnabled="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/rightLinearLayout" app:layout_constraintHorizontal_bias="0" app:layout_constraintStart_toEndOf="@+id/leftLinearLayout" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_bias="0"/>
+</android.support.constraint.ConstraintLayout>

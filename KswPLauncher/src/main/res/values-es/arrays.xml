@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="all_months">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </array>
+    <array name="bc_home_netg6_als_6208_item_text_array">
+        <item>Navegación</item>
+        <item>Vídeo</item>
+        <item>Música</item>
+        <item>Teléfono</item>
+        <item>Coche</item>
+        <item>Dashboard</item>
+        <item>EasyConnected</item>
+        <item>Archivos</item>
+        <item>DVR</item>
+        <item>Ajustes</item>
+    </array>
+    <array name="bc_item_text_array">
+        <item>Navegación</item>
+        <item>Música</item>
+        <item>Teléfono</item>
+        <item>Coche</item>
+        <item>Ajustes</item>
+        <item>Vídeo</item>
+        <item>Archivos</item>
+        <item>EasyConnected</item>
+        <item>Dashboard</item>
+        <item>DVR</item>
+    </array>
+    <array name="bc_ntg5_item_text_array">
+        <item>Navegación</item>
+        <item>Música</item>
+        <item>Teléfono</item>
+        <item>Coche</item>
+        <item>Ajustes</item>
+        <item>Vídeo</item>
+        <item>APPs</item>
+        <item>EasyConnected</item>
+        <item>Dashboard</item>
+        <item>DVR</item>
+    </array>
+    <array name="benz_mbux_home_item_array">
+        <item>Navegación</item>
+        <item>Música</item>
+        <item>Teléfono</item>
+        <item>Coche</item>
+        <item>Ajustes</item>
+        <item>Vídeo</item>
+        <item>Apps</item>
+        <item>EasyConnected</item>
+        <item>Dashboard</item>
+        <item>DVR</item>
+    </array>
+    <array name="ksw_id7_months">
+        <item>ENE</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>ABR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AGO</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DIC</item>
+    </array>
+    <array name="set_factory">
+        <item>Función</item>
+        <item>Automóvil</item>
+        <item>Pantalla</item>
+        <item>CAN Bus</item>
+        <item>MIC Ganar</item>
+        <item>Configuración del tiempo de salida inversa</item>
+        <item>UI</item>
+        <item>Configuración</item>
+        <item>Boot Logo</item>
+    </array>
+    <array name="set_function">
+        <item>Sistema</item>
+        <item>Navegacion</item>
+        <item>Volumen</item>
+        <item>Ecualizador</item>
+        <item>Idioma</item>
+        <item>Tiempo</item>
+        <item>Versión</item>
+        <item>Android</item>
+        <item>Fábrica</item>
+    </array>
+    <array name="set_id6_function">
+        <item>Navegacion</item>
+        <item>Sistema</item>
+        <item>Volumen</item>
+        <item>Ecualizador</item>
+        <item>Idioma</item>
+        <item>Tiempo</item>
+        <item>Versión</item>
+        <item>Android</item>
+        <item>Fábrica</item>
+    </array>
+    <array name="set_land_rover_function">
+        <item>Sistema</item>
+        <item>Navegacion</item>
+        <item>Volumen</item>
+        <item>Idioma</item>
+        <item>Tiempo</item>
+        <item>Versión</item>
+        <item>Android</item>
+        <item>Fábrica</item>
+    </array>
+</resources>

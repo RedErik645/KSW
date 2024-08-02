@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_bmw_id9_settings_audio_layout_0" android:background="@drawable/id9_main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bmw_id9_settings_left_bar_bg"/>
+    <ImageView android:id="@+id/bmw_id8_settings_homeback" android:tag="binding_1" android:src="@drawable/bmw_id9_settings_home_btn" android:layout_marginStart="45dp" style="@style/bmw_id9_settings_arrow"/>
+    <ImageView android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="124dp" android:src="@drawable/bmw_id9_settings_left_bg"/>
+    <RelativeLayout android:layout_width="505dp" android:layout_height="match_parent" android:layout_marginLeft="126dp">
+        <TextView android:text="@string/item3" style="@style/bmw_id9_settings_title"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/bmw_id9_settings_audio_lay" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="68dp" android:layout_centerHorizontal="true">
+            <RelativeLayout android:id="@+id/bmw_id9_settings_audio_android_item" android:focusable="true" android:nextFocusDown="@+id/bmw_id9_settings_audio_oem_item" style="@style/bmw_id9_settings_item">
+                <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/voic_1" style="@style/bmw_id9_settings_item_title"/>
+                <ImageView style="@style/bmw_id9_settings_item_arrow"/>
+                <View style="@style/bmw_id9_settings_item_divider"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/bmw_id9_settings_audio_oem_item" android:focusable="true" android:nextFocusUp="@+id/bmw_id9_settings_audio_android_item" android:nextFocusDown="@+id/bmw_id9_settings_audio_sound_item" style="@style/bmw_id9_settings_item">
+                <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/voic_4" style="@style/bmw_id9_settings_item_title"/>
+                <ImageView style="@style/bmw_id9_settings_item_arrow"/>
+                <View style="@style/bmw_id9_settings_item_divider"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/bmw_id9_settings_audio_sound_item" android:focusable="true" android:nextFocusUp="@+id/bmw_id9_settings_audio_oem_item" android:nextFocusDown="@+id/bmw_id9_settings_audio_sound_item" style="@style/bmw_id9_settings_item">
+                <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/item4" style="@style/bmw_id9_settings_item_title"/>
+                <ImageView style="@style/bmw_id9_settings_item_arrow"/>
+                <View style="@style/bmw_id9_settings_item_divider"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginRight="50dp" android:src="@drawable/bmw_id9_settings_icon_audio" android:layout_alignParentRight="true"/>
+    <FrameLayout android:id="@+id/bmw_id9_settings_audio_framelay" style="@style/bmw_id9_settings_framelay"/>
+</RelativeLayout>

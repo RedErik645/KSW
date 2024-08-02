@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/BcItemConstraintLayout" android:tag="layout/ntg6v3_app_dialog_item_0" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/ntg6v3_dialog_item_padding" android:paddingBottom="@dimen/ntg6v3_dialog_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:id="@+id/nameImageView" android:tag="binding_1" android:background="@color/transparent" android:layout_width="@dimen/ntg6v3_dialog_item_w" android:layout_height="@dimen/ntg6v3_dialog_item_w" android:scaleType="fitCenter" android:layout_marginStart="@dimen/ntg6v3_dialog_item_start"/>
+        <TextView android:textSize="@dimen/ntg6v3_tv_app_dialog_item" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/textView" android:tag="binding_2" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="@dimen/ntg6v3_dialog_item_title_start"/>
+    </LinearLayout>
+    <View android:background="@color/color_575757" android:layout_width="match_parent" android:layout_height="1dp" android:alpha="0.5" app:layout_constraintBottom_toBottomOf="0"/>
+</android.support.constraint.ConstraintLayout>

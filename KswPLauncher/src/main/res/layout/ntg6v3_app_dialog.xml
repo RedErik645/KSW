@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:tag="layout/ntg6v3_app_dialog_0" android:paddingBottom="@dimen/ntg6v3_dialog_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/ntg6v3_launcher_add_popup" android:paddingTop="@dimen/ntg6v3_dialog_padding_top" android:paddingBottom="@dimen/ntg6v3_dialog_padding_btm" android:layout_width="@dimen/ntg6v3_dialog_w" android:layout_height="wrap_content" android:paddingStart="@dimen/ntg6v3_dialog_padding_start" android:paddingEnd="@dimen/ntg6v3_dialog_padding_end" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textSize="@dimen/ntg6v3_tv_dialog_title" android:textColor="@color/white" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_dialog_title"/>
+        <ListView android:id="@+id/dialog_listview" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ntg6v3_dialog_padding_top" android:divider="@null"/>
+    </LinearLayout>
+</RelativeLayout>

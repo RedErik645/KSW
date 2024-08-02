@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/bmw_id9_settings_audio_sound_layout_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/id9_settings_right_list_bg"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bmw_id9_settings_audio_sound_lay" android:layout_width="505dp" android:layout_height="match_parent" android:layout_marginTop="33dp">
+        <TextView android:layout_marginTop="53dp" android:text="@string/item4" style="@style/bmw_id9_settings_second_title"/>
+        <RelativeLayout android:id="@+id/bmw_id9_settings_audio_sound_user" android:nextFocusLeft="@+id/bmw_id9_settings_audio_sound_item" android:nextFocusUp="@+id/bmw_id9_settings_audio_sound_user" style="@style/bmw_id9_settings_item">
+            <ImageView android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:layout_centerVertical="true"/>
+            <TextView android:textSize="22sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="86dp" android:text="@string/eq_text1" android:layout_centerVertical="true" style="@style/bmw_id8_text_shadow"/>
+            <ImageView android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="43dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <View style="@style/bmw_id9_settings_item_divider"/>
+        </RelativeLayout>
+        <ScrollView android:scrollbarSize="5dp" android:scrollbarThumbVertical="@drawable/bmw_id8_list_slider" android:scrollbarStyle="outsideOverlay" android:tag="binding_4" android:scrollbars="vertical" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="35dp" android:layout_below="@+id/bmw_id9_settings_audio_sound_user">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="505dp" android:layout_height="match_parent">
+                <RelativeLayout android:id="@+id/bmw_id9_settings_audio_sound_pop" android:nextFocusLeft="@+id/bmw_id9_settings_audio_sound_item" android:nextFocusUp="@+id/bmw_id9_settings_audio_sound_user" android:nextFocusDown="@+id/bmw_id9_settings_audio_sound_class" style="@style/bmw_id9_settings_item">
+                    <ImageView android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:layout_centerVertical="true"/>
+                    <TextView android:textSize="22sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="86dp" android:text="@string/eq_text2" android:layout_centerVertical="true" style="@style/bmw_id8_text_shadow"/>
+                    <View style="@style/bmw_id9_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/bmw_id9_settings_audio_sound_class" android:nextFocusLeft="@+id/bmw_id9_settings_audio_sound_item" android:nextFocusUp="@+id/bmw_id9_settings_audio_sound_pop" android:nextFocusDown="@+id/bmw_id9_settings_audio_sound_rock" style="@style/bmw_id9_settings_item">
+                    <ImageView android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:layout_centerVertical="true"/>
+                    <TextView android:textSize="22sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="86dp" android:text="@string/eq_text6" android:layout_centerVertical="true" style="@style/bmw_id8_text_shadow"/>
+                    <View style="@style/bmw_id9_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/bmw_id9_settings_audio_sound_rock" android:nextFocusLeft="@+id/bmw_id9_settings_audio_sound_item" android:nextFocusUp="@+id/bmw_id9_settings_audio_sound_class" android:nextFocusDown="@+id/bmw_id9_settings_audio_sound_jazz" style="@style/bmw_id9_settings_item">
+                    <ImageView android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:layout_centerVertical="true"/>
+                    <TextView android:textSize="22sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="86dp" android:text="@string/eq_text4" android:layout_centerVertical="true" style="@style/bmw_id8_text_shadow"/>
+                    <View style="@style/bmw_id9_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/bmw_id9_settings_audio_sound_jazz" android:nextFocusLeft="@+id/bmw_id9_settings_audio_sound_item" android:nextFocusUp="@+id/bmw_id9_settings_audio_sound_rock" android:nextFocusDown="@+id/bmw_id9_settings_audio_sound_dance" style="@style/bmw_id9_settings_item">
+                    <ImageView android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:layout_centerVertical="true"/>
+                    <TextView android:textSize="22sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="86dp" android:text="@string/eq_text5" android:layout_centerVertical="true" style="@style/bmw_id8_text_shadow"/>
+                    <View style="@style/bmw_id9_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/bmw_id9_settings_audio_sound_dance" android:nextFocusLeft="@+id/bmw_id9_settings_audio_sound_item" android:nextFocusUp="@+id/bmw_id9_settings_audio_sound_jazz" android:nextFocusDown="@+id/bmw_id9_settings_audio_sound_dance" style="@style/bmw_id9_settings_item">
+                    <ImageView android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:layout_centerVertical="true"/>
+                    <TextView android:textSize="22sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="86dp" android:text="@string/eq_text3" android:layout_centerVertical="true" style="@style/bmw_id8_text_shadow"/>
+                    <View style="@style/bmw_id9_settings_item_divider"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="vertical" android:tag="binding_10" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/bmw_id9_settings_audio_sound_user">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="87dp">
+                <TextView android:text="@string/eq_text7" android:layout_marginStart="115dp" style="@style/bmw_id9_settings_progressbar_title"/>
+                <TextView android:tag="binding_11" android:layout_centerHorizontal="true" style="@style/bmw_id9_settings_progressbar_title"/>
+                <ImageButton android:id="@+id/bmw_id9_settings_bass_sub_btn" android:background="@drawable/bmw_id9_settings_sub_btn" android:nextFocusLeft="@+id/bmw_id9_settings_audio_sound_item" android:nextFocusUp="@+id/bmw_id9_settings_audio_sound_user" android:nextFocusDown="@+id/bmw_id9_settings_bass_add_btn" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/bmw_id9_settings_audio_low" style="@style/bmw_id9_settings_progressbar_btn"/>
+                <SeekBar android:id="@+id/bmw_id9_settings_audio_low" android:tag="binding_12" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusUp="@+id/bmw_id9_settings_bass_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_bass_add_btn" android:layout_width="306dp" android:layout_height="23dp" android:layout_marginTop="55dp" android:max="24" android:progressDrawable="@drawable/bmw_id9_eq_progress" android:thumb="@null" android:layout_centerHorizontal="true"/>
+                <ImageButton android:id="@+id/bmw_id9_settings_bass_add_btn" android:background="@drawable/bmw_id9_settings_add_btn" android:nextFocusLeft="@+id/bmw_id9_settings_bass_sub_btn" android:nextFocusUp="@+id/bmw_id9_settings_bass_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_mid_sub_btn" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/bmw_id9_settings_audio_low" style="@style/bmw_id9_settings_progressbar_btn"/>
+                <View style="@style/bmw_id9_settings_item_divider"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="87dp">
+                <TextView android:text="@string/eq_text8" android:layout_marginStart="115dp" style="@style/bmw_id9_settings_progressbar_title"/>
+                <TextView android:tag="binding_13" android:layout_centerHorizontal="true" style="@style/bmw_id9_settings_progressbar_title"/>
+                <ImageButton android:id="@+id/bmw_id9_settings_mid_sub_btn" android:background="@drawable/bmw_id9_settings_sub_btn" android:nextFocusLeft="@+id/bmw_id9_settings_audio_sound_item" android:nextFocusUp="@+id/bmw_id9_settings_bass_add_btn" android:nextFocusDown="@+id/bmw_id9_settings_mid_add_btn" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/bmw_id9_settings_audio_mid" style="@style/bmw_id9_settings_progressbar_btn"/>
+                <SeekBar android:id="@+id/bmw_id9_settings_audio_mid" android:tag="binding_14" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusUp="@+id/bmw_id9_settings_mid_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_mid_add_btn" android:layout_width="306dp" android:layout_height="23dp" android:layout_marginTop="55dp" android:max="24" android:progressDrawable="@drawable/bmw_id9_eq_progress" android:thumb="@null" android:layout_centerHorizontal="true"/>
+                <ImageButton android:id="@+id/bmw_id9_settings_mid_add_btn" android:background="@drawable/bmw_id9_settings_add_btn" android:nextFocusLeft="@+id/bmw_id9_settings_mid_sub_btn" android:nextFocusUp="@+id/bmw_id9_settings_mid_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_tre_sub_btn" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/bmw_id9_settings_audio_mid" style="@style/bmw_id9_settings_progressbar_btn"/>
+                <View style="@style/bmw_id9_settings_item_divider"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="87dp">
+                <TextView android:text="@string/eq_text9" android:layout_marginStart="115dp" style="@style/bmw_id9_settings_progressbar_title"/>
+                <TextView android:tag="binding_15" android:layout_centerHorizontal="true" style="@style/bmw_id9_settings_progressbar_title"/>
+                <ImageButton android:id="@+id/bmw_id9_settings_tre_sub_btn" android:background="@drawable/bmw_id9_settings_sub_btn" android:nextFocusLeft="@+id/bmw_id9_settings_audio_sound_item" android:nextFocusUp="@+id/bmw_id9_settings_mid_add_btn" android:nextFocusDown="@+id/bmw_id9_settings_tre_add_btn" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/bmw_id9_settings_audio_tre" style="@style/bmw_id9_settings_progressbar_btn"/>
+                <SeekBar android:id="@+id/bmw_id9_settings_audio_tre" android:tag="binding_16" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusUp="@+id/bmw_id9_settings_tre_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_tre_add_btn" android:layout_width="306dp" android:layout_height="23dp" android:layout_marginTop="55dp" android:max="24" android:progressDrawable="@drawable/bmw_id9_eq_progress" android:thumb="@null" android:layout_centerHorizontal="true"/>
+                <ImageButton android:id="@+id/bmw_id9_settings_tre_add_btn" android:background="@drawable/bmw_id9_settings_add_btn" android:nextFocusLeft="@+id/bmw_id9_settings_tre_sub_btn" android:nextFocusUp="@+id/bmw_id9_settings_tre_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_tre_add_btn" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/bmw_id9_settings_audio_tre" style="@style/bmw_id9_settings_progressbar_btn"/>
+                <View style="@style/bmw_id9_settings_item_divider"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/benz_mbux_settings_system_fuel_layout_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/mbux_settings_system_fuel_lay" android:layout_width="730dp" android:layout_height="match_parent" android:layout_marginLeft="17dp" android:layout_marginTop="53dp" android:paddingStart="30dp" android:paddingEnd="4dp" android:layout_marginStart="30dp">
+        <TextView android:text="@string/fuel_unit" style="@style/mbux_settings_second_title"/>
+        <RelativeLayout android:id="@+id/mbux_settings_system_fuel_l" android:tag="binding_1" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@+id/mbux_settings_system_fuel" android:nextFocusUp="@+id/mbux_settings_system_fuel_l" android:nextFocusDown="@+id/mbux_settings_system_fuel_us" style="@style/mbux_settings_item">
+            <ImageView android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:layout_centerVertical="true"/>
+            <com.wits.ksw.launcher.view.MarqueeTextView android:textSize="24sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="75dp" android:maxWidth="333dp" android:text="L" android:singleLine="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" android:textAllCaps="false" style="@style/bmw_id8_text_shadow"/>
+            <View style="@style/mbux_settings_item_divider"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/mbux_settings_system_fuel_us" android:tag="binding_3" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@+id/mbux_settings_system_fuel" android:nextFocusUp="@+id/mbux_settings_system_fuel_l" android:nextFocusDown="@+id/mbux_settings_system_fuel_uk" style="@style/mbux_settings_item">
+            <ImageView android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:layout_centerVertical="true"/>
+            <com.wits.ksw.launcher.view.MarqueeTextView android:textSize="24sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="75dp" android:maxWidth="333dp" android:text="gal(US)" android:singleLine="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" android:textAllCaps="false" style="@style/bmw_id8_text_shadow"/>
+            <View style="@style/mbux_settings_item_divider"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/mbux_settings_system_fuel_uk" android:tag="binding_5" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@+id/mbux_settings_system_fuel" android:nextFocusUp="@+id/mbux_settings_system_fuel_us" android:nextFocusDown="@+id/mbux_settings_system_fuel_uk" style="@style/mbux_settings_item">
+            <ImageView android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:layout_centerVertical="true"/>
+            <com.wits.ksw.launcher.view.MarqueeTextView android:textSize="24sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="75dp" android:maxWidth="333dp" android:text="gal(UK)" android:singleLine="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" android:textAllCaps="false" style="@style/bmw_id8_text_shadow"/>
+            <View style="@style/mbux_settings_item_divider"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

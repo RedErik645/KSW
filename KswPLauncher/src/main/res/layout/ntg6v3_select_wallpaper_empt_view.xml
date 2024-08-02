@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:tag="layout/ntg6v3_select_wallpaper_empt_view_0" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="22dp" android:paddingEnd="6dp">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6v3_paper_pic_empty"/>
+    <TextView android:textSize="20sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ntg6v3_wallpaper_empty_img"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="false" android:layout_width="match_parent" android:layout_height="63dp">
+    <RelativeLayout android:id="@+id/benz_settings_main_item_bg" android:background="@drawable/benz_mbux_settings_main_btn_sel" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/benz_settings_main_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="37dp"/>
+        <com.wits.ksw.launcher.view.MarqueeTextView android:textSize="21sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@+id/benz_settings_main_item_title" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="160dp" android:singleLine="true" android:layout_toRightOf="@+id/benz_settings_main_item_icon" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" android:textAllCaps="true" android:layout_marginStart="20dp" style="@style/bmw_id8_text_shadow"/>
+        <View android:id="@+id/benz_settings_main_item_divider" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

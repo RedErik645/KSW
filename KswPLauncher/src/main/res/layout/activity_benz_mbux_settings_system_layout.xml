@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_benz_mbux_settings_system_layout_0" android:background="@drawable/mbux_settings_main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="67dp" android:src="@drawable/mbux_settings_left_bg" android:layout_marginStart="12dp"/>
+    <ImageView android:background="@drawable/mbux_settings_keypad_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_marginStart="440dp"/>
+    <RelativeLayout android:layout_width="397dp" android:layout_height="match_parent" android:layout_marginLeft="12dp">
+        <TextView android:text="@string/item1" style="@style/mbux_settings_title"/>
+        <ScrollView android:scrollbarSize="5dp" android:scrollbarThumbVertical="@drawable/bmw_id8_list_slider" android:scrollbarStyle="outsideOverlay" android:id="@+id/mbux_settings_system_scroll" android:scrollbars="vertical" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="68dp" android:layout_marginBottom="35dp">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:descendantFocusability="afterDescendants" android:layout_width="397dp" android:layout_height="match_parent">
+                <RelativeLayout android:id="@+id/mbux_settings_system_mirror" android:focusable="true" android:nextFocusDown="@+id/mbux_settings_system_motion" android:focusedByDefault="true" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/set_text1" style="@style/mbux_settings_item_title"/>
+                    <ImageView android:tag="binding_1" style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_motion" android:focusable="true" android:nextFocusUp="@+id/mbux_settings_system_mirror" android:nextFocusDown="@+id/mbux_settings_system_lines" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/set_text2" style="@style/mbux_settings_item_title"/>
+                    <ImageView android:tag="binding_2" style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_lines" android:focusable="true" android:nextFocusUp="@+id/mbux_settings_system_motion" android:nextFocusDown="@+id/mbux_settings_system_radar" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/set_text3" style="@style/mbux_settings_item_title"/>
+                    <ImageView android:tag="binding_3" style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_radar" android:focusable="true" android:nextFocusUp="@+id/mbux_settings_system_lines" android:nextFocusDown="@+id/mbux_settings_system_mute" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/set_text4" style="@style/mbux_settings_item_title"/>
+                    <ImageView android:tag="binding_4" style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_mute" android:focusable="true" android:nextFocusUp="@+id/mbux_settings_system_radar" android:nextFocusDown="@+id/mbux_settings_system_time" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/set_text7" style="@style/mbux_settings_item_title"/>
+                    <ImageView android:tag="binding_5" style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_time" android:nextFocusUp="@+id/mbux_settings_system_mute" android:nextFocusDown="@+id/mbux_settings_system_language" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/item6" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_language" android:nextFocusUp="@+id/mbux_settings_system_time" android:nextFocusDown="@+id/mbux_settings_system_camera" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/item5" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_camera" android:nextFocusUp="@+id/mbux_settings_system_language" android:nextFocusDown="@+id/mbux_settings_system_aux" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/set_text5" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_aux" android:nextFocusUp="@+id/mbux_settings_system_camera" android:nextFocusDown="@+id/mbux_settings_system_brightness" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/set_caraux" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_brightness" android:nextFocusUp="@+id/mbux_settings_system_aux" android:nextFocusDown="@+id/mbux_settings_system_temp" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/set_text6" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_temp" android:nextFocusUp="@+id/mbux_settings_system_brightness" android:nextFocusDown="@+id/mbux_settings_system_fuel" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/audi_set_temp_unit" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_fuel" android:nextFocusUp="@+id/mbux_settings_system_temp" android:nextFocusDown="@+id/mbux_settings_system_music" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/fuel_unit" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_music" android:nextFocusUp="@+id/mbux_settings_system_fuel" android:nextFocusDown="@+id/mbux_settings_system_video" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/music_app_sel" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/mbux_settings_system_video" android:nextFocusUp="@+id/mbux_settings_system_music" android:nextFocusDown="@+id/mbux_settings_system_video" style="@style/mbux_settings_item">
+                    <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/video_app_sel" style="@style/mbux_settings_item_title"/>
+                    <ImageView style="@style/mbux_settings_item_arrow"/>
+                    <View style="@style/mbux_settings_item_divider"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <ImageView android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="107dp" android:src="@drawable/mbux_settings_icon_system" android:layout_marginStart="667dp"/>
+    <FrameLayout android:id="@+id/mbux_settings_system_framelay" style="@style/mbux_settings_framelay"/>
+</RelativeLayout>

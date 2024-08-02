@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_bmw_id9_settings_navi_layout_0" android:background="@drawable/id9_main_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bmw_id9_settings_left_bar_bg"/>
+    <ImageView android:id="@+id/bmw_id8_settings_homeback" android:tag="binding_1" android:src="@drawable/bmw_id9_settings_home_btn" android:layout_marginStart="45dp" style="@style/bmw_id9_settings_arrow"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="124dp" android:src="@drawable/bmw_id9_settings_left_bg"/>
+    <RelativeLayout android:layout_width="505dp" android:layout_height="match_parent" android:layout_marginLeft="126dp">
+        <TextView android:text="@string/item2" style="@style/bmw_id9_settings_title"/>
+        <android.support.v7.widget.RecyclerView android:scrollbarSize="5dp" android:scrollbarThumbVertical="@drawable/bmw_id8_list_slider" android:scrollbarStyle="outsideOverlay" android:id="@+id/navi_recycle" android:scrollbars="vertical" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="68dp" android:layout_marginBottom="35dp"/>
+    </RelativeLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginRight="50dp" android:src="@drawable/bmw_id9_settings_icon_navi" android:layout_alignParentRight="true"/>
+</RelativeLayout>

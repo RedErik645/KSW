@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ll_left_bar_container" android:tag="layout/ntg_fy_v3_launcher_left_bar_0" android:background="@drawable/ntg6_fy_v3_left_bule1_bg" android:paddingTop="60dp" android:paddingBottom="15dp" android:focusable="false" android:clickable="false" android:layout_width="120dp" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_left_1" android:tag="binding_1" android:background="@drawable/bmw_id8_main_left_btn_yellow" android:nextFocusLeft="@+id/ll_left_1" android:nextFocusUp="@+id/ll_left_1" style="@style/id8_main_left_bar_container">
+        <ImageView android:id="@+id/iv_left_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6_fy_v3_main_left_icon_navi"/>
+        <TextView android:textSize="17sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/ksw_id8_abbr_tel_navigate"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_left_2" android:tag="binding_2" android:background="@drawable/bmw_id8_main_left_btn_yellow" style="@style/id8_main_left_bar_container">
+        <ImageView android:id="@+id/iv_left_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6_fy_v3_main_left_icon_apps"/>
+        <TextView android:textSize="17sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/ksw_id8_apps"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_left_3" android:tag="binding_3" android:background="@drawable/bmw_id8_main_left_btn_yellow" style="@style/id8_main_left_bar_container">
+        <ImageView android:id="@+id/iv_left_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6_fy_v3_main_left_icon_music"/>
+        <TextView android:textSize="17sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/ksw_id8_music"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_left_4" android:tag="binding_4" android:background="@drawable/bmw_id8_main_left_btn_yellow" style="@style/id8_main_left_bar_container">
+        <ImageView android:id="@+id/iv_left_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6_fy_v3_main_left_icon_setting"/>
+        <TextView android:textSize="17sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/ksw_id8_setting"/>
+    </LinearLayout>
+</LinearLayout>

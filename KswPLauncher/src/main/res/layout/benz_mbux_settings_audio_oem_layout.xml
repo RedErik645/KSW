@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/benz_mbux_settings_audio_oem_layout_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/mbux_settings_audio_oem_lay" android:layout_width="730dp" android:layout_height="match_parent">
+        <TextView android:layout_marginTop="53dp" android:text="@string/voic_4" android:layout_marginStart="30dp" style="@style/mbux_settings_second_title"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="87dp">
+            <TextView android:text="@string/voic_3" android:layout_marginStart="164dp" style="@style/mbux_settings_progressbar_title"/>
+            <TextView android:tag="binding_1" android:layout_centerHorizontal="true" style="@style/mbux_settings_progressbar_title"/>
+            <ImageButton android:id="@+id/mbux_settings_oem_call_sub_btn" android:tag="binding_2" android:background="@drawable/benz_mbux_settings_sub_btn" android:nextFocusLeft="@+id/mbux_settings_audio_oem_item" android:nextFocusRight="@+id/mbux_settings_oem_call_add_btn" android:nextFocusUp="@+id/mbux_settings_navi_sub_btn" android:nextFocusDown="@+id/mbux_settings_oem_call_add_btn" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/mbux_settings_oem_call_seekbar" style="@style/mbux_settings_progressbar_btn"/>
+            <com.wits.ksw.launcher.view.benzmbux2021new.BenzMbuxProgressBar android:id="@+id/mbux_settings_oem_call_seekbar" android:tag="binding_3" android:nextFocusUp="@+id/mbux_settings_oem_call_sub_btn" android:nextFocusDown="@+id/mbux_settings_oem_call_add_btn" app:mbux_progress_bar_max="40" style="@style/mbux_settings_progressbar"/>
+            <ImageButton android:id="@+id/mbux_settings_oem_call_add_btn" android:tag="binding_4" android:background="@drawable/benz_mbux_settings_add_btn" android:nextFocusLeft="@+id/mbux_settings_oem_call_sub_btn" android:nextFocusUp="@+id/mbux_settings_oem_call_sub_btn" android:nextFocusDown="@+id/mbux_settings_navi_add_btn" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/mbux_settings_oem_call_seekbar" style="@style/mbux_settings_progressbar_btn"/>
+            <View style="@style/mbux_settings_item_divider"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="87dp">
+            <TextView android:text="@string/voic_5" android:layout_marginStart="164dp" style="@style/mbux_settings_progressbar_title"/>
+            <TextView android:tag="binding_5" android:layout_centerHorizontal="true" style="@style/mbux_settings_progressbar_title"/>
+            <ImageButton android:id="@+id/mbux_settings_navi_sub_btn" android:tag="binding_6" android:background="@drawable/benz_mbux_settings_sub_btn" android:nextFocusLeft="@+id/mbux_settings_audio_oem_item" android:nextFocusRight="@+id/mbux_settings_navi_add_btn" android:nextFocusUp="@+id/mbux_settings_navi_add_btn" android:nextFocusDown="@+id/mbux_settings_oem_call_sub_btn" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/mbux_settings_navi_seekbar" style="@style/mbux_settings_progressbar_btn"/>
+            <com.wits.ksw.launcher.view.benzmbux2021new.BenzMbuxProgressBar android:id="@+id/mbux_settings_navi_seekbar" android:tag="binding_7" android:nextFocusUp="@+id/mbux_settings_navi_sub_btn" android:nextFocusDown="@+id/mbux_settings_navi_add_btn" app:mbux_progress_bar_max="40" style="@style/mbux_settings_progressbar"/>
+            <ImageButton android:id="@+id/mbux_settings_navi_add_btn" android:tag="binding_8" android:background="@drawable/benz_mbux_settings_add_btn" android:nextFocusLeft="@+id/mbux_settings_navi_sub_btn" android:nextFocusUp="@+id/mbux_settings_oem_call_add_btn" android:nextFocusDown="@+id/mbux_settings_navi_sub_btn" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/mbux_settings_navi_seekbar" style="@style/mbux_settings_progressbar_btn"/>
+            <View style="@style/mbux_settings_item_divider"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

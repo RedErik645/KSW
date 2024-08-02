@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:tag="layout/ntg6v3_change_theme_item1_0" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="22dp" android:paddingEnd="6dp">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:focusable="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:id="@+id/ntg6v3Item1_1" android:nextFocusLeft="@+id/wallpaper_change_tv" android:nextFocusRight="@+id/ntg6v3Item1_2" android:nextFocusUp="@+id/wallpaper_change_tv" android:nextFocusDown="@+id/ntg6v3Item1_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6v3_theme_select_blue_selector"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <TextView android:textSize="17sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seven_color_menu_item_text6"/>
+            <ImageView android:layout_gravity="center_vertical" android:tag="binding_1" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ntg6v3_them_or_wallpaper_select" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:id="@+id/ntg6v3Item1_2" android:nextFocusLeft="@+id/ntg6v3Item1_1" android:nextFocusRight="@+id/ntg6v3Item1_3" android:nextFocusUp="@+id/ntg6v3Item1_1" android:nextFocusDown="@+id/ntg6v3Item1_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6v3_theme_select_blue2_selector"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <TextView android:textSize="17sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ntg6v3_color_blue_light"/>
+            <ImageView android:layout_gravity="center_vertical" android:tag="binding_2" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ntg6v3_them_or_wallpaper_select" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:id="@+id/ntg6v3Item1_3" android:nextFocusLeft="@+id/ntg6v3Item1_2" android:nextFocusRight="@+id/ntg6v3Item1_4" android:nextFocusUp="@+id/ntg6v3Item1_2" android:nextFocusDown="@+id/ntg6v3Item1_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6v3_theme_select_gay_selector"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <TextView android:textSize="17sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ntg6v3_color_gay"/>
+            <ImageView android:layout_gravity="center_vertical" android:tag="binding_3" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ntg6v3_them_or_wallpaper_select" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:id="@+id/ntg6v3Item1_4" android:nextFocusLeft="@+id/ntg6v3Item1_3" android:nextFocusRight="@+id/ntg6v3Item2_1" android:nextFocusUp="@+id/ntg6v3Item1_3" android:nextFocusDown="@+id/ntg6v3Item2_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ntg6v3_theme_select_orange_selector"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <TextView android:textSize="17sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/seven_color_menu_item_text2"/>
+            <ImageView android:layout_gravity="center_vertical" android:tag="binding_4" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ntg6v3_them_or_wallpaper_select" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

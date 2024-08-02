@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/id9_card_view" android:tag="layout/view_id9_als_third_0" android:background="@drawable/id9_home_left_selector" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/id9_home_third_iv" android:layout_width="76dp" android:layout_height="76dp" android:layout_marginBottom="40dp" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <TextView android:id="@+id/id9_home_third_title_tv" android:text="@string/fragment_add_title" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/id9_home_card_item_title_tv"/>
+    <LinearLayout android:gravity="center" android:id="@+id/id9_home_delete_ll" android:layout_width="56dp" android:layout_height="56dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/id9_delete_btn_selector"/>
+    </LinearLayout>
+    <TextView android:id="@+id/id9_home_video_tips_tv" android:text="@string/ksw_id8_trd_desc" app:layout_constraintStart_toStartOf="@+id/id9_home_third_title_tv" app:layout_constraintTop_toBottomOf="@+id/id9_home_third_title_tv" style="@style/id9_home_card_item_title_tips"/>
+</android.support.constraint.ConstraintLayout>

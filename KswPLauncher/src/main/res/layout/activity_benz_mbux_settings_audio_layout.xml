@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_benz_mbux_settings_audio_layout_0" android:background="@drawable/mbux_settings_main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="67dp" android:src="@drawable/mbux_settings_left_bg" android:layout_marginStart="12dp"/>
+    <ImageView android:background="@drawable/mbux_settings_keypad_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_marginStart="440dp"/>
+    <RelativeLayout android:layout_width="397dp" android:layout_height="match_parent" android:layout_marginLeft="12dp">
+        <TextView android:text="@string/item3" style="@style/mbux_settings_title"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/mbux_settings_audio_lay" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="68dp" android:layout_centerHorizontal="true">
+            <RelativeLayout android:id="@+id/mbux_settings_audio_android_item" android:focusable="true" android:nextFocusDown="@+id/mbux_settings_audio_oem_item" style="@style/mbux_settings_item">
+                <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/voic_1" style="@style/mbux_settings_item_title"/>
+                <ImageView style="@style/mbux_settings_item_arrow"/>
+                <View style="@style/mbux_settings_item_divider"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/mbux_settings_audio_oem_item" android:focusable="true" android:nextFocusUp="@+id/mbux_settings_audio_android_item" android:nextFocusDown="@+id/mbux_settings_audio_sound_item" style="@style/mbux_settings_item">
+                <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/voic_4" style="@style/mbux_settings_item_title"/>
+                <ImageView style="@style/mbux_settings_item_arrow"/>
+                <View style="@style/mbux_settings_item_divider"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/mbux_settings_audio_sound_item" android:focusable="true" android:nextFocusUp="@+id/mbux_settings_audio_oem_item" android:nextFocusDown="@+id/mbux_settings_audio_sound_item" style="@style/mbux_settings_item">
+                <com.wits.ksw.launcher.view.MarqueeTextView android:text="@string/item4" style="@style/mbux_settings_item_title"/>
+                <ImageView style="@style/mbux_settings_item_arrow"/>
+                <View style="@style/mbux_settings_item_divider"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@+id/mbux_settings_audio_img" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="107dp" android:src="@drawable/mbux_settings_icon_vol" android:layout_marginStart="667dp"/>
+    <FrameLayout android:id="@+id/mbux_settings_audio_framelay" style="@style/mbux_settings_framelay"/>
+</RelativeLayout>

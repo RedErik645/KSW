@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/id9_card_view" android:tag="layout/view_id9_als_car_info_0" android:background="@drawable/id9_home_left_selector" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="186dp" android:layout_height="88dp" android:layout_marginBottom="16dp" android:src="@drawable/id9_car_info_pic" android:layout_marginEnd="22dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0"/>
+    <TextView android:id="@+id/id9_home_video_title_tv" android:text="原车信息" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/id9_home_card_item_title_tv"/>
+    <TextView android:id="@+id/id9_home_video_tips_tv" android:text="一键进入原车界面" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="@+id/id9_home_video_title_tv" app:layout_constraintTop_toBottomOf="@+id/id9_home_video_title_tv" style="@style/id9_home_card_item_title_tips"/>
+</android.support.constraint.ConstraintLayout>

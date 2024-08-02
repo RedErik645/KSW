@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/bmw_id9_settings_system_brightness_layout_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/id9_settings_right_list_bg"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bmw_id9_settings_brightness_lay" android:layout_width="510dp" android:layout_height="match_parent" android:layout_marginTop="33dp">
+        <TextView android:layout_marginTop="53dp" android:text="@string/set_text6" style="@style/bmw_id9_settings_second_title"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="87dp">
+            <TextView android:textSize="20sp" android:textColor="@android:color/white" android:id="@+id/bmw_id9_settings_brightness_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="" android:layout_centerHorizontal="true" style="@style/bmw_id8_text_shadow"/>
+            <ImageButton android:id="@+id/bmw_id9_settings_brightness_sub_btn" android:background="@drawable/bmw_id9_settings_sub_btn" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@+id/bmw_id9_settings_system_brightness" android:nextFocusRight="@+id/bmw_id9_settings_brightness_add_btn" android:nextFocusUp="@+id/bmw_id9_settings_brightness_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_brightness_add_btn" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/bmw_id9_settings_brightness_seekbar" style="@style/bmw_id9_settings_progressbar_btn"/>
+            <com.wits.ksw.settings.bmw_id9.view.BmwId9ProgressBar android:id="@+id/bmw_id9_settings_brightness_seekbar" android:nextFocusUp="@+id/bmw_id9_settings_brightness_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_brightness_add_btn" app:id8_progress_bar_max="100" style="@style/bmw_id9_settings_progressbar"/>
+            <ImageButton android:id="@+id/bmw_id9_settings_brightness_add_btn" android:background="@drawable/bmw_id9_settings_add_btn" android:nextFocusLeft="@+id/bmw_id9_settings_brightness_sub_btn" android:nextFocusUp="@+id/bmw_id9_settings_brightness_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_brightness_add_btn" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/bmw_id9_settings_brightness_seekbar" style="@style/bmw_id9_settings_progressbar_btn"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

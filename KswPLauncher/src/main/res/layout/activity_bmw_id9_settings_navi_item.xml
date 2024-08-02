@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bmw_id9_settings_navi_item_lay" android:focusableInTouchMode="true" android:layout_centerHorizontal="true" style="@style/bmw_id9_settings_item">
+    <RadioButton android:enabled="false" android:id="@+id/bmw_id9_settings_navi_item_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="37dp" android:button="@drawable/bmw_id9_settings_item_sel" android:layout_centerVertical="true" style="@style/bmw_id8_text_shadow"/>
+    <com.wits.ksw.launcher.view.MarqueeTextView android:textColor="@android:color/white" android:id="@+id/bmw_id9_settings_navi_item_title" android:layout_toRightOf="@+id/bmw_id9_settings_navi_item_btn" android:layout_marginStart="15dp" style="@style/bmw_id9_settings_item_title"/>
+    <View style="@style/bmw_id9_settings_item_divider"/>
+</RelativeLayout>

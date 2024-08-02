@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/bmw_id9_settings_audio_oem_layout_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/id9_settings_right_list_bg"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bmw_id9_settings_audio_oem_lay" android:layout_width="510dp" android:layout_height="match_parent" android:layout_marginTop="33dp">
+        <TextView android:layout_marginTop="53dp" android:text="@string/voic_4" style="@style/bmw_id9_settings_second_title"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="87dp">
+            <TextView android:text="@string/voic_3" android:layout_marginStart="81dp" style="@style/bmw_id9_settings_progressbar_title"/>
+            <TextView android:tag="binding_2" android:layout_centerHorizontal="true" style="@style/bmw_id9_settings_progressbar_title"/>
+            <ImageButton android:id="@+id/bmw_id9_settings_oem_call_sub_btn" android:tag="binding_3" android:background="@drawable/bmw_id9_settings_sub_btn" android:nextFocusLeft="@+id/bmw_id9_settings_audio_oem_item" android:nextFocusRight="@+id/bmw_id9_settings_oem_call_add_btn" android:nextFocusUp="@+id/bmw_id9_settings_navi_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_oem_call_add_btn" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/bmw_id9_settings_oem_call_seekbar" style="@style/bmw_id9_settings_progressbar_btn"/>
+            <com.wits.ksw.settings.bmw_id9.view.BmwId9ProgressBar android:id="@+id/bmw_id9_settings_oem_call_seekbar" android:tag="binding_4" android:nextFocusUp="@+id/bmw_id9_settings_oem_call_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_oem_call_add_btn" app:id9_progress_bar_max="40" style="@style/bmw_id9_settings_progressbar"/>
+            <ImageButton android:id="@+id/bmw_id9_settings_oem_call_add_btn" android:tag="binding_5" android:background="@drawable/bmw_id9_settings_add_btn" android:nextFocusLeft="@+id/bmw_id9_settings_oem_call_sub_btn" android:nextFocusUp="@+id/bmw_id9_settings_oem_call_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_navi_add_btn" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/bmw_id9_settings_oem_call_seekbar" style="@style/bmw_id9_settings_progressbar_btn"/>
+            <View style="@style/bmw_id9_settings_item_divider"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="87dp">
+            <TextView android:text="@string/voic_5" android:layout_marginStart="81dp" style="@style/bmw_id9_settings_progressbar_title"/>
+            <TextView android:tag="binding_6" android:layout_centerHorizontal="true" style="@style/bmw_id9_settings_progressbar_title"/>
+            <ImageButton android:id="@+id/bmw_id9_settings_navi_sub_btn" android:tag="binding_7" android:background="@drawable/bmw_id9_settings_sub_btn" android:nextFocusLeft="@+id/bmw_id9_settings_audio_oem_item" android:nextFocusRight="@+id/bmw_id9_settings_navi_add_btn" android:nextFocusUp="@+id/bmw_id9_settings_navi_add_btn" android:nextFocusDown="@+id/bmw_id9_settings_oem_call_sub_btn" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/bmw_id9_settings_navi_seekbar" style="@style/bmw_id9_settings_progressbar_btn"/>
+            <com.wits.ksw.settings.bmw_id9.view.BmwId9ProgressBar android:id="@+id/bmw_id9_settings_navi_seekbar" android:tag="binding_8" android:nextFocusUp="@+id/bmw_id9_settings_navi_sub_btn" android:nextFocusDown="@+id/bmw_id9_settings_navi_add_btn" app:id9_progress_bar_max="40" style="@style/bmw_id9_settings_progressbar"/>
+            <ImageButton android:id="@+id/bmw_id9_settings_navi_add_btn" android:tag="binding_9" android:background="@drawable/bmw_id9_settings_add_btn" android:nextFocusLeft="@+id/bmw_id9_settings_navi_sub_btn" android:nextFocusUp="@+id/bmw_id9_settings_oem_call_add_btn" android:nextFocusDown="@+id/bmw_id9_settings_navi_sub_btn" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/bmw_id9_settings_navi_seekbar" style="@style/bmw_id9_settings_progressbar_btn"/>
+            <View style="@style/bmw_id9_settings_item_divider"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

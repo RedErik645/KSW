@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/id9_card_view" android:tag="layout/view_id9_als_add_card_0" android:background="@drawable/id9_home_left_selector" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="76dp" android:layout_height="76dp" android:layout_marginBottom="40dp" android:src="@drawable/id9_home_add" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <TextView android:id="@+id/id9_home_video_title_tv" android:text="@string/fragment_add_title" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/id9_home_card_item_title_tv"/>
+</android.support.constraint.ConstraintLayout>

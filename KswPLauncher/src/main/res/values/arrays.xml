@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="all_months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <array name="allapps_item_text_array">
+        <item>@string/ksw_id8_abbr_tel_navigate</item>
+        <item>@string/benz_ntg6_fy_theme_settings</item>
+        <item>@string/ksw_id8_phone</item>
+        <item>@string/video</item>
+        <item>@string/ksw_id8_setting</item>
+        <item>@string/ksw_id8_music</item>
+        <item>EQ</item>
+        <item>@string/id6_shouj_hulian</item>
+        <item>@string/ksw_id8_car_info</item>
+        <item>@string/ksw_id8_dashboard</item>
+    </array>
+    <array name="bc_home_netg6_als_6208_item_text_array">
+        <item>Navigation</item>
+        <item>Video</item>
+        <item>Music</item>
+        <item>Telephone</item>
+        <item>NTG Menu</item>
+        <item>Dashboard</item>
+        <item>PhoneLink</item>
+        <item>File Browser</item>
+        <item>DVR</item>
+        <item>Settings</item>
+    </array>
+    <array name="bc_item_text_array">
+        <item>Navigation</item>
+        <item>Music</item>
+        <item>Telephone</item>
+        <item>NTG Menu</item>
+        <item>Settings</item>
+        <item>Video</item>
+        <item>File Browser</item>
+        <item>PhoneLink</item>
+        <item>Dashboard</item>
+        <item>DVR</item>
+    </array>
+    <array name="bc_ntg5_item_text_array">
+        <item>Navigation</item>
+        <item>Music</item>
+        <item>Telephone</item>
+        <item>NTG Menu</item>
+        <item>Settings</item>
+        <item>Video</item>
+        <item>APPS</item>
+        <item>PhoneLink</item>
+        <item>Dashboard</item>
+        <item>DVR</item>
+    </array>
+    <array name="benz_mbux_2021_home_item_array">
+        <item>Telephone</item>
+        <item>Navigation</item>
+        <item>NTG Menu</item>
+        <item>Video</item>
+        <item>Music</item>
+        <item>Settings</item>
+        <item>PhoneLink</item>
+        <item>Apps</item>
+        <item>Dashboard</item>
+    </array>
+    <array name="benz_mbux_2021_item_tip_array">
+        <item>No Connection</item>
+        <item>Real-time Navigation</item>
+        <item>Car UI</item>
+        <item>Video Player</item>
+        <item>Music</item>
+        <item>System Settings</item>
+        <item>Support USB or WiFi</item>
+        <item>More Apps</item>
+        <item>Fuel Consumption</item>
+    </array>
+    <array name="benz_mbux_home_item_array">
+        <item>Navigation</item>
+        <item>Music</item>
+        <item>Telephone</item>
+        <item>NTG Menu</item>
+        <item>Settings</item>
+        <item>Video</item>
+        <item>Apps</item>
+        <item>PhoneLink</item>
+        <item>Dashboard</item>
+        <item>DVR</item>
+    </array>
+    <array name="bmw_id8_dashboard_linear_blue">
+        <item>#0c3d5a</item>
+        <item>#0d304f</item>
+        <item>#0d2a4d</item>
+        <item>#0e446d</item>
+        <item>#268ec0</item>
+        <item>#f5f8f8</item>
+    </array>
+    <array name="bmw_id8_dashboard_linear_red">
+        <item>#2b192e</item>
+        <item>#431a2e</item>
+        <item>#6b1c30</item>
+        <item>#a72c48</item>
+        <item>#f49998</item>
+        <item>#fffcfc</item>
+    </array>
+    <array name="bmw_id8_dashboard_linear_yellow">
+        <item>#391d29</item>
+        <item>#5d2027</item>
+        <item>#973b2d</item>
+        <item>#e38250</item>
+        <item>#e1b292</item>
+        <item>#f7f7f3</item>
+    </array>
+    <array name="bmw_id9_dashboard_linear_noble">
+        <item>#ffe4a7</item>
+        <item>#ffe2af</item>
+        <item>#ffc97f</item>
+        <item>#cd7850</item>
+    </array>
+    <array name="exclude_class_list">
+        <item>com.wits.screencast</item>
+        <item>com.qualcomm.qti.modemtestmode</item>
+    </array>
+    <array name="ksw_id7_months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+    <array name="ntg6_dialog_item_text_array">
+        <item>Ntg6V3_Navigation</item>
+        <item>Ntg6V3_Theme</item>
+        <item>Ntg6V3_BT</item>
+        <item>Ntg6V3_Video</item>
+        <item>Ntg6V3_Settings</item>
+        <item>Ntg6V3_Music</item>
+        <item>Ntg6V3_EQ</item>
+        <item>Ntg6V3_Phone_Link</item>
+        <item>Ntg6V3_Car</item>
+        <item>Ntg6V3_Instrument</item>
+    </array>
+    <array name="set_factory">
+        <item>Function</item>
+        <item>Vehicle</item>
+        <item>Car Display</item>
+        <item>CAN Protocol</item>
+        <item>MIC Gain</item>
+        <item>Reverse exit time configuration</item>
+        <item>UI Configuration</item>
+        <item>Profile Import</item>
+        <item>Boot Logo</item>
+    </array>
+    <array name="set_function">
+        <item>System</item>
+        <item>Navigation</item>
+        <item>Volume</item>
+        <item>Sound</item>
+        <item>Language</item>
+        <item>Time</item>
+        <item>System Info</item>
+        <item>Android</item>
+        <item>Factory</item>
+    </array>
+    <array name="set_id6_function">
+        <item>Navigation</item>
+        <item>System</item>
+        <item>Volume</item>
+        <item>Sound</item>
+        <item>Language</item>
+        <item>Time</item>
+        <item>System Info</item>
+        <item>Android</item>
+        <item>Factory</item>
+    </array>
+    <array name="set_land_rover_function">
+        <item>System</item>
+        <item>Navigation</item>
+        <item>Volume</item>
+        <item>Language</item>
+        <item>Time</item>
+        <item>System Info</item>
+        <item>Android</item>
+        <item>Factory</item>
+    </array>
+    <array name="witstek8l_icon_class_name">
+        <item>com.txznet.weather</item>
+        <item>com.zjinnova.zlink</item>
+        <item>com.ivicar.avm</item>
+        <item />
+        <item>com.android.calculator2.Calculator</item>
+        <item>com.baony.ui.activity.AVMBVActivity</item>
+    </array>
+</resources>
