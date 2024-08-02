@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/color_l_orange_8_fg" android:maxLevel="0"/>
+    <item android:drawable="@drawable/color_l_yellow_8_fg" android:maxLevel="1"/>
+    <item android:drawable="@drawable/color_l_green_8_fg" android:maxLevel="2"/>
+    <item android:drawable="@drawable/color_l_blue_8_fg" android:maxLevel="3"/>
+    <item android:drawable="@drawable/color_l_purple_8_fg" android:maxLevel="4"/>
+    <item android:drawable="@drawable/color_l_red_8_fg" android:maxLevel="5"/>
+</level-list>

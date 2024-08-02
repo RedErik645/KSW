@@ -1,0 +1,41 @@
+package com.wits.ksw.launcher.utils;
+
+public class Constants {
+    public static final boolean ANTI_ALIAS = true;
+    public static final int DEFAULT_ANIM_TIME = 1000;
+    public static final int DEFAULT_ARC_WIDTH = 15;
+    public static final int DEFAULT_HINT_SIZE = 15;
+    public static final int DEFAULT_MAX_VALUE = 100;
+    public static final int DEFAULT_SIZE = 150;
+    public static final int DEFAULT_START_ANGLE = 270;
+    public static final int DEFAULT_SWEEP_ANGLE = 360;
+    public static final int DEFAULT_UNIT_SIZE = 30;
+    public static final int DEFAULT_VALUE = 25;
+    public static final int DEFAULT_VALUE_SIZE = 15;
+    public static final int DEFAULT_WAVE_HEIGHT = 40;
+    public static String NTG6V3_MAIN_WALLPAPER_ORIGINAL_PATH = "Ntg6v3MaiWallpaperOriginalPath";
+    public static String NTG6V3_MAIN_WALLPAPER_PATH = "Ntg6v3MaiWallpaperPath";
+    public static final int NTG6V3_PIC_FILE_MAX_HEIGHT = 1500;
+    public static final long NTG6V3_PIC_FILE_MAX_LENGTH = 5242880;
+    public static final int NTG6V3_PIC_FILE_MAX_WIDTH = 3000;
+    public static final String NTG6V3_SELECT_MAIN_WALLPAPER_MODEL = "Ntg6v3MainWallpaperModel";
+    public static final String NTG6V3_SELECT_THEME_VIEW_MODEL = "Ntg6v3ThemeViewModel";
+    public static int NTG6V3_THEME_COLOR_BLUE = 0;
+    public static int NTG6V3_THEME_COLOR_BLUE_LIGHT = 5;
+    public static int NTG6V3_THEME_COLOR_GAY = 1;
+    public static int NTG6V3_THEME_COLOR_ORANGE = 2;
+    public static int NTG6V3_THEME_COLOR_PURPLE = 7;
+    public static int NTG6V3_THEME_COLOR_PURPLE_LIGHT = 6;
+    public static int NTG6V3_THEME_COLOR_RED = 3;
+    public static int NTG6V3_THEME_COLOR_YELLOW = 4;
+    public static int NTG6V3_THEME_WALLPAPER_DEVICES_MODEL_ALL = 0;
+    public static int NTG6V3_THEME_WALLPAPER_DEVICES_MODEL_LOC = 1;
+    public static int NTG6V3_THEME_WALLPAPER_DEVICES_MODEL_SD = 4;
+    public static int NTG6V3_THEME_WALLPAPER_DEVICES_MODEL_USB1 = 2;
+    public static int NTG6V3_THEME_WALLPAPER_DEVICES_MODEL_USB2 = 3;
+    public static int NTG6V3_THEME_WALLPAPER_MODEL_CUSTOM = 2;
+    public static int NTG6V3_THEME_WALLPAPER_MODEL_MAP = 1;
+    public static int NTG6V3_THEME_WALLPAPER_MODEL_NORMAL = 0;
+    public static final String NTG6V3_WALLPAPER_LOC_PATH = "/storage/emulated/0";
+    public static final String NTG6V3_WALLPAPER_SPECIFY_PATH = "/wallpaper";
+}
